@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">folio<b></b></div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Project</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/faizur982/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+        
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1 id="h">I'm <span class="multiText"></span></h1>
+                <p>I am always energetic and enthusiastic to learn new skills. To secure employment with a reputable company. Where i can utilize my skills and business studies background to maximum.</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>Hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="splash.png" id="splash">
+                    <img id="photo" src="img.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- javaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Rahman","Student","Coder","designer"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
